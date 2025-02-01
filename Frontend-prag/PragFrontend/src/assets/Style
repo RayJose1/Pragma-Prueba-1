@@ -1,0 +1,226 @@
+@font-face {
+    font-family: "icosicns";
+    src: url("../fonts/icosicns/icosicns.eot?6gvqs9");
+    src: url("../fonts/icosicns/icosicns.eot?6gvqs9#iefix") format("embedded-opentype"), url("../fonts/icosicns/icosicns.ttf?6gvqs9") format("truetype"), url("../fonts/icosicns/icosicns.woff?6gvqs9") format("woff"), url("../fonts/icosicns/icosicns.svg?6gvqs9#icosicns") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^=ico-],
+[class*=" ico-"] {
+    font-family: "icosicns" !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-chevron-up:before {
+    content: "\e922";
+}
+
+.ico-chevron-down:before {
+    content: "\e923";
+}
+
+.ico-sort:before {
+    content: "\e92f";
+}
+
+.table {
+    border-collapse: collapse !important;
+    border: 2px solid black !important;
+}
+
+.container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table-responsive {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 575.98px) {
+    .table-responsive-sm {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .table-responsive-md {
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .table-responsive-lg {
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .table-responsive-xl {
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+@media (max-width: 1399.98px) {
+    .table-responsive-xxl {
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.message {
+    padding: 0 2px;
+    font-size: 0.75rem;
+    line-height: 100%;
+    color: #FC0000 !important;
+}
+
+th {
+    background-color: #b2b8b8 !important;
+}
+
+.loading-container {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1500;
+}
+
+th {
+    background-color: #CCD1D1 !important;
+}
+
+tr {
+    border: none !important;
+}
+
+.new {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.tools {
+    float: right;
+    margin: 0.5%;
+    margin-top: 5%;
+}
+
+.export {
+    margin-top: 6%;
+}
+
+.pagination {
+    align-items: center;
+    background-color: white;
+}
+
+.pagination .page-item {
+    height: 100%;
+}
+
+
+.page-link {
+    border: none !important;
+    color: black !important;
+}
+
+.pagination .page-item .page-link:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #99A3A4;
+}
+
+.btn-primary {
+    height: auto !important;
+    line-height: 12px !important;
+    color: black !important;
+    border: 2px solid black !important;
+    background-color: white !important;
+    text-align: center !important;
+}
+
+.btn-primary:active {
+    background-color: black !important;
+    color: white !important;
+
+}
+
+.modal-content {
+    border-color: black !important;
+    border-width: 3px !important;
+    border-radius: 0px !important;
+}
+
+.input-container {
+    position: relative;
+    padding-right: 20px;
+}
+
+.input-container label {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    height: 2.100rem !important;
+}
+
+/* .form-control {
+    position: relative;
+    top: 10px;
+    left: px;
+    width: 66%;
+} */
+.custom-label {
+    width: 150px;
+  }
+  
+  .custom-input {
+    width: calc(100% - 150px);
+  }
+
+.message {
+    color: red;
+}
+
+.form {
+    margin-left: 10% !important;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.label-container {
+    width: 100%;
+    /* ajusta el ancho según tus necesidades */
+}
+
+.datepicker-container {
+    flex: 1;
+}
